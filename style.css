@@ -1,3 +1,7 @@
+@font-face {
+    font-family: alice;
+    src: url(./assets/astroz/Astroz\ Trial.ttf);
+}
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +16,10 @@ body,html{
     height:100vh;
     width:100%;
     background-color: #ffffff ;
+    position: relative;
+}
+.logo{
+    font-family: alice;
 }
 .nav{
     background-color: #d1d1d1;
@@ -48,4 +56,16 @@ body,html{
     width: 100%;
     height: 300px;
     background-color: black;
+}
+.herovideo{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    z-index: 0;
+}
+.video{
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
